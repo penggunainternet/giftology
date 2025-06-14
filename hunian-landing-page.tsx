@@ -84,9 +84,11 @@ export default function HunianLandingPage() {
                 seperti ulang tahun, anniversary, wisuda, dan perayaan lainnya.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button className="bg-emerald-800 hover:bg-emerald-900 text-white text-lg px-8 py-6">
-                  Lihat Produk
-                </Button>
+                <a href="#properti">
+                  <Button className="bg-emerald-800 hover:bg-emerald-900 text-white text-lg px-8 py-6">
+                    Lihat Produk
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
@@ -119,14 +121,14 @@ export default function HunianLandingPage() {
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-emerald-700 mb-2">
-                    <MapPin className="h-4 w-4" />
-                    <span className="text-sm">Bintaro, Jakarta Selatan</span>
+                    {/* <MapPin className="h-4 w-4" /> */}
+                    {/* <span className="text-sm">Bintaro, Jakarta Selatan</span> */}
                   </div>
                   <p className="text-emerald-800 mb-4">
-                    Rumah 2 lantai dengan 3 kamar tidur, 2 kamar mandi, dan
-                    taman belakang yang luas.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Hic molestiae quae
                   </p>
-                  <Button className="w-full bg-amber-800 hover:bg-emerald-900">
+                  <Button className="w-full bg-amber-800 hover:bg-amber-900">
                     Lihat Detail
                   </Button>
                 </CardContent>
@@ -152,14 +154,14 @@ export default function HunianLandingPage() {
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-emerald-700 mb-2">
-                    <MapPin className="h-4 w-4" />
-                    <span className="text-sm">Kemang, Jakarta Selatan</span>
+                    {/* <MapPin className="h-4 w-4" /> */}
+                    {/* <span className="text-sm">Kemang, Jakarta Selatan</span> */}
                   </div>
                   <p className="text-emerald-800 mb-4">
-                    Rumah mewah dengan 4 kamar tidur, 3 kamar mandi, ruang
-                    keluarga luas, dan kolam renang pribadi.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Hic molestiae quae.
                   </p>
-                  <Button className="w-full bg-amber-800 hover:bg-emerald-900">
+                  <Button className="w-full bg-amber-800 hover:bg-amber-900">
                     Lihat Detail
                   </Button>
                 </CardContent>
@@ -185,14 +187,14 @@ export default function HunianLandingPage() {
                     </span>
                   </div>
                   <div className="flex items-center gap-2 text-emerald-700 mb-2">
-                    <MapPin className="h-4 w-4" />
-                    <span className="text-sm">BSD City, Tangerang</span>
+                    {/* <MapPin className="h-4 w-4" /> */}
+                    {/* <span className="text-sm">BSD City, Tangerang</span> */}
                   </div>
                   <p className="text-emerald-800 mb-4">
-                    Rumah nyaman dengan 2 kamar tidur, 2 kamar mandi, dan akses
-                    mudah ke fasilitas umum.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Hic molestiae quae.
                   </p>
-                  <Button className="w-full bg-amber-800 hover:bg-emerald-900">
+                  <Button className="w-full bg-amber-800 hover:bg-amber-900">
                     Lihat Detail
                   </Button>
                 </CardContent>
@@ -267,8 +269,10 @@ export default function HunianLandingPage() {
                   Mahal
                 </h3>
                 <p className="text-emerald-800">
-                  Pusat perbelanjaan dan restoran dalam kompleks untuk memenuhi
-                  kebutuhan sehari-hari Anda.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, ipsam. Dolores fugiat quas hic illum accusamus
+                  exercitationem asperiores nesciunt soluta, ab vitae ea ad
+                  consectetur, saepe neque illo voluptatibus voluptatem.
                 </p>
               </div>
             </div>
@@ -293,10 +297,10 @@ export default function HunianLandingPage() {
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
                   </div>
                   <p className="text-emerald-800 italic mb-6">
-                    "Saya sangat puas dengan rumah baru kami di RumahNyaman.
-                    Lokasinya strategis, desainnya modern, dan lingkungannya
-                    sangat nyaman untuk keluarga. Proses pembeliannya juga
-                    sangat mudah!"
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi, ipsam. Dolores fugiat quas hic illum accusamus
+                    exercitationem asperiores nesciunt soluta, ab vitae ea ad
+                    consectetur, saepe neque illo voluptatibus voluptatem."
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-amber-200 overflow-hidden">
@@ -331,10 +335,10 @@ export default function HunianLandingPage() {
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
                   </div>
                   <p className="text-emerald-800 italic mb-6">
-                    "Fasilitas di kompleks perumahan ini sangat lengkap.
-                    Anak-anak saya senang dengan taman bermainnya, dan saya suka
-                    dengan keamanannya yang terjamin. Investasi terbaik untuk
-                    keluarga kami!"
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi, ipsam. Dolores fugiat quas hic illum accusamus
+                    exercitationem asperiores nesciunt soluta, ab vitae ea ad
+                    consectetur, saepe neque illo voluptatibus voluptatem."
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-amber-200 overflow-hidden">
@@ -369,10 +373,10 @@ export default function HunianLandingPage() {
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
                   </div>
                   <p className="text-emerald-800 italic mb-6">
-                    "Tim marketing RumahNyaman sangat profesional dan membantu.
-                    Mereka memberikan informasi yang jelas dan membantu kami
-                    menemukan hunian yang sesuai dengan kebutuhan dan budget
-                    kami."
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi, ipsam. Dolores fugiat quas hic illum accusamus
+                    exercitationem asperiores nesciunt soluta, ab vitae ea ad
+                    consectetur, saepe neque illo voluptatibus voluptatem.""
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-amber-200 overflow-hidden">
@@ -406,14 +410,14 @@ export default function HunianLandingPage() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Rayakan Momen Spesial Bersama Giftology!
               </h2>
-              <p className="text-lg md:text-xl mb-8 text-emerald-100">
+              <p className="text-lg md:text-xl mb-8 text-white">
                 Giftology membantu Anda memberikan kejutan istimewa dengan
                 kemasan menarik dan pilihan isi hadiah yang dapat disesuaikan
                 sesuai kebutuhan. Hubungi kami sekarang untuk informasi lebih
                 lanjut.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button className="bg-white text-emerald-800 hover:bg-amber-100 text-lg px-8 py-6">
+                <Button className="bg-white text-emerald-800 hover:bg-emerald-50 text-lg px-8 py-6">
                   Hubungi Kami
                 </Button>
                 {/* <Button variant="outline" className="border-white text-white hover:bg-amber-700 text-lg px-8 py-6">
@@ -426,27 +430,41 @@ export default function HunianLandingPage() {
       </main>
 
       {/* Footer */}
-      <footer id="kontak" className="bg-emerald-900 text-emerald-100 py-12">
+      <footer
+        id="kontak"
+        className="bg-amber-50 text-emerald-800 font-bold py-12"
+      >
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 {/* <Home className="h-6 w-6 text-white" /> */}
-                <span className="text-xl font-bold text-white">Gifttology</span>
+                <span className="text-xl font-bold text-emerald-800">
+                  Gifttology
+                </span>
               </div>
               <p className="mb-4">
                 Menyediakan Giftbox berkualitas sejak 2025.
               </p>
               <div className="flex gap-4">
-                <Link href="#" className="text-white hover:text-emerald-300">
+                <Link
+                  href="https://www.instagram.com/giftology.ofc?igsh=bG9zNms4a2VoemRh&utm_source=qr"
+                  className="text-emerald-800 hover:text-emerald-300"
+                >
                   <Instagram className="h-5 w-5" />
                 </Link>
-                <Link href="#" className="text-white hover:text-emerald-300">
+                {/* <Link
+                  href="#"
+                  className="text-emerald-800 hover:text-emerald-300"
+                >
                   <Facebook className="h-5 w-5" />
                 </Link>
-                <Link href="#" className="text-white hover:text-emerald-300">
-                  <Twitter className="h-5 w-5" />
-                </Link>
+                <Link
+                  href="#"
+                  className="text-emerald-800 hover:text-emerald-300"
+                >
+                  <Twitter className="h-5 w-5" /> */}
+                {/* </Link> */}
               </div>
             </div>
 
@@ -503,11 +521,15 @@ export default function HunianLandingPage() {
             </div> */}
 
             <div>
-              <h3 className="text-lg font-semibold mb-4 text-white">Kontak</h3>
+              <h3 className="text-lg font-semibold mb-4 text-emerald-800">
+                Kontak
+              </h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-2">
                   <MapPin className="h-5 w-5 flex-shrink-0" />
-                  <span>Jl. Kemang Raya No. 123, Jakarta Selatan</span>
+                  <span>
+                    Jl. Imam Bonjol No.207, Kota Semarang, Jawa Tengah
+                  </span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="h-5 w-5 flex-shrink-0" />
@@ -515,7 +537,7 @@ export default function HunianLandingPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="h-5 w-5 flex-shrink-0" />
-                  <span>info@rumahnyaman.com</span>
+                  <span>info@Giftology.com</span>
                 </li>
               </ul>
             </div>
