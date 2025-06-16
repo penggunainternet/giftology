@@ -66,7 +66,7 @@ export default function HunianLandingPage() {
         <section id="beranda" className="relative py-20 md:py-28">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/banner.png"
+              src="/images/bann.png"
               alt="Hunian Mewah"
               fill
               className="object-cover opacity-20"
