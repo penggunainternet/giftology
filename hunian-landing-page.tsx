@@ -66,7 +66,7 @@ export default function HunianLandingPage() {
         <section id="beranda" className="relative py-20 md:py-28">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/jkw.webp"
+              src="/images/banner.png"
               alt="Hunian Mewah"
               fill
               className="object-cover opacity-20"
@@ -103,101 +103,41 @@ export default function HunianLandingPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Property 1 */}
               <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
-                <div className="relative h-64">
+                <div className="relative h-96">
                   <Image
-                    src="/images/person-1.jpg"
+                    src="/images/kiri.jpg"
                     alt="Rumah Tipe Melati"
                     fill
                     className="object-cover"
                   />
                 </div>
-                <CardContent className="p-6">
-                  <div className="flex justify-between items-center mb-3">
-                    <h3 className="text-xl font-bold text-emerald-900">
-                      Tipe Melati
-                    </h3>
-                    <span className="text-lg font-semibold text-emerald-800">
-                      Rp 850 juta
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-2 text-emerald-700 mb-2">
-                    {/* <MapPin className="h-4 w-4" /> */}
-                    {/* <span className="text-sm">Bintaro, Jakarta Selatan</span> */}
-                  </div>
-                  <p className="text-emerald-800 mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Hic molestiae quae
-                  </p>
-                  <Button className="w-full bg-amber-800 hover:bg-amber-900">
-                    Lihat Detail
-                  </Button>
-                </CardContent>
+                
               </Card>
 
               {/* Property 2 */}
               <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
-                <div className="relative h-64">
+                <div className="relative h-96">
                   <Image
-                    src="/images/logo-garuda-pancasila.png"
+                    src="/images/kanan.jpg"
                     alt="Apartemen Tipe Dahlia"
                     fill
                     className="object-cover"
                   />
                 </div>
-                <CardContent className="p-6">
-                  <div className="flex justify-between items-center mb-3">
-                    <h3 className="text-xl font-bold text-emerald-900">
-                      Tipe Dahlia
-                    </h3>
-                    <span className="text-lg font-semibold text-emerald-800">
-                      Rp 1,2 miliar
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-2 text-emerald-700 mb-2">
-                    {/* <MapPin className="h-4 w-4" /> */}
-                    {/* <span className="text-sm">Kemang, Jakarta Selatan</span> */}
-                  </div>
-                  <p className="text-emerald-800 mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Hic molestiae quae.
-                  </p>
-                  <Button className="w-full bg-amber-800 hover:bg-amber-900">
-                    Lihat Detail
-                  </Button>
-                </CardContent>
+                
               </Card>
 
               {/* Property 3 */}
               <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
-                <div className="relative h-64">
+                <div className="relative h-96">
                   <Image
-                    src="/images/fufu.jpg"
+                    src="/images/tengah.jpg"
                     alt="Rumah Tipe Anggrek"
                     fill
                     className="object-cover"
                   />
                 </div>
-                <CardContent className="p-6">
-                  <div className="flex justify-between items-center mb-3">
-                    <h3 className="text-xl font-bold text-emerald-900">
-                      Tipe Anggrek
-                    </h3>
-                    <span className="text-lg font-semibold text-emerald-800">
-                      Rp 650 juta
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-2 text-emerald-700 mb-2">
-                    {/* <MapPin className="h-4 w-4" /> */}
-                    {/* <span className="text-sm">BSD City, Tangerang</span> */}
-                  </div>
-                  <p className="text-emerald-800 mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Hic molestiae quae.
-                  </p>
-                  <Button className="w-full bg-amber-800 hover:bg-amber-900">
-                    Lihat Detail
-                  </Button>
-                </CardContent>
+              
               </Card>
             </div>
             {/* <div className="text-center mt-12">
