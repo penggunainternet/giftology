@@ -105,7 +105,7 @@ export default function HunianLandingPage() {
               <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
                 <div className="relative h-64">
                   <Image
-                    src="/images/ivgsfj7y.png"
+                    src="/images/person-1.jpg"
                     alt="Rumah Tipe Melati"
                     fill
                     className="object-cover"
