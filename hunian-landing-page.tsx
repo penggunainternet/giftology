@@ -55,9 +55,12 @@ export default function HunianLandingPage() {
               Kontak
             </Link>
           </nav>
+          <a href="https://wa.me/6282220696529">
+          
           <Button className="bg-emerald-800 hover:bg-emerald-900 text-white">
             Hubungi Kami
           </Button>
+          </a>
         </div>
       </header>
 
@@ -106,7 +109,7 @@ export default function HunianLandingPage() {
                 <div className="relative h-96">
                   <Image
                     src="/images/kiri.jpg"
-                    alt="Rumah Tipe Melati"
+                    alt="pic3"
                     fill
                     className="object-cover"
                   />
@@ -119,7 +122,7 @@ export default function HunianLandingPage() {
                 <div className="relative h-96">
                   <Image
                     src="/images/kanan.jpg"
-                    alt="Apartemen Tipe Dahlia"
+                    alt="pic1"
                     fill
                     className="object-cover"
                   />
@@ -132,7 +135,7 @@ export default function HunianLandingPage() {
                 <div className="relative h-96">
                   <Image
                     src="/images/tengah.jpg"
-                    alt="Rumah Tipe Anggrek"
+                    alt="pic2"
                     fill
                     className="object-cover"
                   />
@@ -160,13 +163,10 @@ export default function HunianLandingPage() {
                   <Check className="h-8 w-8 text-emerald-800" />
                 </div>
                 <h3 className="text-xl font-bold text-emerald-900 mb-3">
-                  Mahal
+                  Harga Terjangkau
                 </h3>
                 <p className="text-emerald-800">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
-                  molestiae quae, accusamus commodi earum illo quidem veniam
-                  praesentium, ducimus adipisci voluptas facilis expedita dolor
-                  debitis recusandae? Suscipit architecto vel praesentium.
+                  Dibuat dengan tampilan premium namun tetap bersahabat di kantong. Hadiah mewah tanpa harus mahal.
                 </p>
               </div>
 
@@ -175,13 +175,10 @@ export default function HunianLandingPage() {
                   <Check className="h-8 w-8 text-emerald-800" />
                 </div>
                 <h3 className="text-xl font-bold text-emerald-900 mb-3">
-                  Mahal
+                  Customizable
                 </h3>
                 <p className="text-emerald-800">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi, ipsam. Dolores fugiat quas hic illum accusamus
-                  exercitationem asperiores nesciunt soluta, ab vitae ea ad
-                  consectetur, saepe neque illo voluptatibus voluptatem.
+                  Setiap giftbox bisa disesuaikan dengan tema, isi, dan pesan khusus sesuai momen. Hadiah jadi lebih bermakna.
                 </p>
               </div>
 
@@ -237,10 +234,7 @@ export default function HunianLandingPage() {
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
                   </div>
                   <p className="text-emerald-800 italic mb-6">
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi, ipsam. Dolores fugiat quas hic illum accusamus
-                    exercitationem asperiores nesciunt soluta, ab vitae ea ad
-                    consectetur, saepe neque illo voluptatibus voluptatem."
+                    "Isiannya lengkap dan lucu-lucu, pas banget buat hadiah wisuda. Temen aku langsung upload ke Instagram saking senangnya!"
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-amber-200 overflow-hidden">
@@ -256,9 +250,9 @@ export default function HunianLandingPage() {
                       <h4 className="font-semibold text-emerald-900">
                         Budi Santoso
                       </h4>
-                      <p className="text-sm text-emerald-700">
+                      {/* <p className="text-sm text-emerald-700">
                         Pemilik Tipe Melati
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </CardContent>
@@ -275,10 +269,7 @@ export default function HunianLandingPage() {
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
                   </div>
                   <p className="text-emerald-800 italic mb-6">
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi, ipsam. Dolores fugiat quas hic illum accusamus
-                    exercitationem asperiores nesciunt soluta, ab vitae ea ad
-                    consectetur, saepe neque illo voluptatibus voluptatem."
+                    "Giftbox-nya super cantik! Teman aku sampai terharu waktu nerima. Suka banget karena bisa request tema yang sesuai!"
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-amber-200 overflow-hidden">
@@ -294,9 +285,9 @@ export default function HunianLandingPage() {
                       <h4 className="font-semibold text-emerald-900">
                         Dewi Lestari
                       </h4>
-                      <p className="text-sm text-emerald-700">
+                      {/* <p className="text-sm text-emerald-700">
                         Pemilik Tipe Dahlia
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </CardContent>
@@ -313,10 +304,7 @@ export default function HunianLandingPage() {
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
                   </div>
                   <p className="text-emerald-800 italic mb-6">
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi, ipsam. Dolores fugiat quas hic illum accusamus
-                    exercitationem asperiores nesciunt soluta, ab vitae ea ad
-                    consectetur, saepe neque illo voluptatibus voluptatem.""
+                    "Pesanannya cepat, bisa custom isi dan ucapannya. Nggak repot lagi cari kado, tinggal pilih yang sesuai kita inginkan, cs nya juga ramah!"
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-amber-200 overflow-hidden">
@@ -332,9 +320,9 @@ export default function HunianLandingPage() {
                       <h4 className="font-semibold text-emerald-900">
                         Ahmad Hidayat
                       </h4>
-                      <p className="text-sm text-emerald-700">
+                      {/* <p className="text-sm text-emerald-700">
                         Pemilik Tipe Anggrek
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </CardContent>
@@ -473,7 +461,7 @@ export default function HunianLandingPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="h-5 w-5 flex-shrink-0" />
-                  <span>+62 21 1234 5678</span>
+                  <span>+62 8222 0696 529</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="h-5 w-5 flex-shrink-0" />
