@@ -55,7 +55,7 @@ export default function HunianLandingPage() {
               Kontak
             </Link>
           </nav>
-          <a href="https://www.instagram.com/giftology.ofc?igsh=bG9zNms4a2VoemRh&utm_source=qr">
+          <a href="https://wa.me/6282220696529">
           
           <Button className="bg-emerald-800 hover:bg-emerald-900 text-white">
             Hubungi Kami
@@ -349,7 +349,7 @@ export default function HunianLandingPage() {
               </p>
               <div className="flex gap-4">
                 <Link
-                  href="https://www.instagram.com/giftology.ofc?igsh=bG9zNms4a2VoemRh&utm_source=qr"
+                  href="https://wa.me/6282220696529"
                   className="text-emerald-800 hover:text-emerald-300"
                 >
                   <Instagram className="h-5 w-5" />
@@ -434,7 +434,7 @@ export default function HunianLandingPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="h-5 w-5 flex-shrink-0" />
-                  <span>+62 123 456 789</span>
+                  <span>+62 8222 0696 529</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="h-5 w-5 flex-shrink-0" />
