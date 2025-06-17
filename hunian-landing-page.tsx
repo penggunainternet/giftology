@@ -157,7 +157,7 @@ export default function HunianLandingPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 text-center mb-12">
               Keunggulan Produk Kami
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16">
               <div className="bg-white p-6 rounded-lg shadow-md border border-amber-200 text-center">
                 <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Check className="h-8 w-8 text-emerald-800" />
@@ -182,49 +182,20 @@ export default function HunianLandingPage() {
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-md border border-amber-200 text-center">
-                <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Check className="h-8 w-8 text-emerald-800" />
-                </div>
-                <h3 className="text-xl font-bold text-emerald-900 mb-3">
-                  Mahal
-                </h3>
-                <p className="text-emerald-800">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                  amet ratione itaque! Excepturi doloremque laudantium eligendi
-                  maxime quisquam, aspernatur exercitationem placeat sed
-                  pariatur rerum minima nam officia, consectetur perspiciatis
-                  voluptatem.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md border border-amber-200 text-center">
-                <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Check className="h-8 w-8 text-emerald-800" />
-                </div>
-                <h3 className="text-xl font-bold text-emerald-900 mb-3">
-                  Mahal
-                </h3>
-                <p className="text-emerald-800">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi, ipsam. Dolores fugiat quas hic illum accusamus
-                  exercitationem asperiores nesciunt soluta, ab vitae ea ad
-                  consectetur, saepe neque illo voluptatibus voluptatem.
-                </p>
-              </div>
+              
             </div>
           </div>
         </section>
 
         {/* Testimonials */}
-        <section id="testimoni" className="py-16 bg-amber-50">
+        {/* <section id="testimoni" className="py-16 bg-amber-50">
           <div className="container">
             <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 text-center mb-12">
               Apa Kata Mereka?
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> */}
               {/* Testimonial 1 */}
-              <Card className="border-amber-200 shadow-md">
+              {/* <Card className="border-amber-200 shadow-md">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-1 mb-4">
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
@@ -249,17 +220,17 @@ export default function HunianLandingPage() {
                     <div>
                       <h4 className="font-semibold text-emerald-900">
                         Budi Santoso
-                      </h4>
+                      </h4> */}
                       {/* <p className="text-sm text-emerald-700">
                         Pemilik Tipe Melati
                       </p> */}
-                    </div>
+                    {/* </div>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Testimonial 2 */}
-              <Card className="border-amber-200 shadow-md">
+              {/* <Card className="border-amber-200 shadow-md">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-1 mb-4">
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
@@ -284,17 +255,17 @@ export default function HunianLandingPage() {
                     <div>
                       <h4 className="font-semibold text-emerald-900">
                         Dewi Lestari
-                      </h4>
+                      </h4> */}
                       {/* <p className="text-sm text-emerald-700">
                         Pemilik Tipe Dahlia
                       </p> */}
-                    </div>
+                    {/* </div>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Testimonial 3 */}
-              <Card className="border-amber-200 shadow-md">
+              {/* <Card className="border-amber-200 shadow-md">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-1 mb-4">
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
@@ -319,17 +290,17 @@ export default function HunianLandingPage() {
                     <div>
                       <h4 className="font-semibold text-emerald-900">
                         Ahmad Hidayat
-                      </h4>
+                      </h4> */}
                       {/* <p className="text-sm text-emerald-700">
                         Pemilik Tipe Anggrek
                       </p> */}
-                    </div>
+                    {/* </div>
                   </div>
                 </CardContent>
               </Card>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* CTA Section */}
         <section className="py-16 bg-amber-800 text-white">
