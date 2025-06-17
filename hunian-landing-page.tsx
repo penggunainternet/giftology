@@ -42,12 +42,12 @@ export default function HunianLandingPage() {
             {/* <Link href="#fasilitas" className="text-sm font-medium text-emerald-900 hover:text-emerald-700">
               Fasilitas
             </Link> */}
-            <Link
+            {/* <Link
               href="#testimoni"
               className="text-sm font-medium text-emerald-900 hover:text-emerald-700"
             >
               Testimoni
-            </Link>
+            </Link> */}
             <Link
               href="#kontak"
               className="text-sm font-medium text-emerald-900 hover:text-emerald-700"
