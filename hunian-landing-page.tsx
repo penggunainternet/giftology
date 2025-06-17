@@ -316,7 +316,7 @@ export default function HunianLandingPage() {
                 lanjut.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://www.instagram.com/giftology.ofc?igsh=bG9zNms4a2VoemRh&utm_source=qr">
+                <a href="https://wa.me/6282220696529">
                 <Button className="bg-white text-emerald-800 hover:bg-emerald-50 text-lg px-8 py-6">
                   Hubungi Kami
                 </Button></a>
@@ -349,7 +349,7 @@ export default function HunianLandingPage() {
               </p>
               <div className="flex gap-4">
                 <Link
-                  href="https://wa.me/6282220696529"
+                  href="https://www.instagram.com/giftology.ofc?igsh=bG9zNms4a2VoemRh&utm_source=qr"
                   className="text-emerald-800 hover:text-emerald-300"
                 >
                   <Instagram className="h-5 w-5" />
