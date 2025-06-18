@@ -103,56 +103,7 @@ export default function HunianLandingPage() {
           </div>
         </section>
 
-        {/* Property Showcase */}
-        <section id="properti" className="py-16 bg-amber-50">
-          <div className="container">
-            <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 text-center mb-12">
-              Produk Kami
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Property 1 */}
-              <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
-                <div className="relative h-96">
-                  <Image
-                    src="/images/kiri.jpg"
-                    alt="pic3"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </Card>
-
-              {/* Property 2 */}
-              <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
-                <div className="relative h-96">
-                  <Image
-                    src="/images/kanan.jpg"
-                    alt="pic1"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </Card>
-
-              {/* Property 3 */}
-              <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
-                <div className="relative h-96">
-                  <Image
-                    src="/images/tengah.jpg"
-                    alt="pic2"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </Card>
-            </div>
-            {/* <div className="text-center mt-12">
-              <Button variant="outline" className="border-amber-800 text-emerald-800 hover:bg-amber-100">
-                Lihat Semua Properti
-              </Button>
-            </div> */}
-          </div>
-        </section>
+        {/* Produk Section */}
 
         <section id="properti" className="py-16 bg-amber-50">
           <div className="container">
