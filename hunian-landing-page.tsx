@@ -111,7 +111,7 @@ export default function HunianLandingPage() {
               Produk Kami
             </h2>
             <div className="relative px-4">
-              <Carousel className="w-full max-w-5xl mx-auto">
+              <Carousel className="w-full " opts={{ loop: true }}>
                 <CarouselContent>
                   <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
                     <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
