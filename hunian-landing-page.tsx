@@ -117,7 +117,7 @@ export default function HunianLandingPage() {
                     <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
                       <div className="relative h-96">
                         <Image
-                          src="/images/kiri.jpg"
+                          src="/images/6.jpg"
                           alt="pic2"
                           fill
                           className="object-cover"
@@ -178,7 +178,7 @@ export default function HunianLandingPage() {
                     <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
                       <div className="relative h-96">
                         <Image
-                          src="/images/5.jpg"
+                          src="/images/55.jpg"
                           alt="pic6"
                           fill
                           className="object-cover"
