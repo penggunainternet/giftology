@@ -1,6 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import {
   Home,
   MapPin,
   Phone,
@@ -56,10 +63,9 @@ export default function HunianLandingPage() {
             </Link>
           </nav>
           <a href="https://wa.me/6282220696529">
-          
-          <Button className="bg-emerald-800 hover:bg-emerald-900 text-white">
-            Hubungi Kami
-          </Button>
+            <Button className="bg-emerald-800 hover:bg-emerald-900 text-white">
+              Hubungi Kami
+            </Button>
           </a>
         </div>
       </header>
@@ -114,7 +120,6 @@ export default function HunianLandingPage() {
                     className="object-cover"
                   />
                 </div>
-                
               </Card>
 
               {/* Property 2 */}
@@ -127,7 +132,6 @@ export default function HunianLandingPage() {
                     className="object-cover"
                   />
                 </div>
-                
               </Card>
 
               {/* Property 3 */}
@@ -140,7 +144,6 @@ export default function HunianLandingPage() {
                     className="object-cover"
                   />
                 </div>
-              
               </Card>
             </div>
             {/* <div className="text-center mt-12">
@@ -148,6 +151,96 @@ export default function HunianLandingPage() {
                 Lihat Semua Properti
               </Button>
             </div> */}
+          </div>
+        </section>
+
+        <section id="properti" className="py-16 bg-amber-50">
+          <div className="container">
+            <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 text-center mb-12">
+              Produk Kami
+            </h2>
+            <div className="relative px-4">
+              <Carousel className="w-full max-w-5xl mx-auto">
+                <CarouselContent>
+                  <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
+                    <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
+                      <div className="relative h-96">
+                        <Image
+                          src="/images/kiri.jpg"
+                          alt="pic2"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </Card>
+                  </CarouselItem>
+                  <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
+                    <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
+                      <div className="relative h-96">
+                        <Image
+                          src="/images/tengah.jpg"
+                          alt="pic2"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </Card>
+                  </CarouselItem>
+
+                  <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
+                    <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
+                      <div className="relative h-96">
+                        <Image
+                          src="/images/2.jpg"
+                          alt="pic3"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </Card>
+                  </CarouselItem>
+                  <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
+                    <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
+                      <div className="relative h-96">
+                        <Image
+                          src="/images/3.jpg"
+                          alt="pic4"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </Card>
+                  </CarouselItem>
+                  <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
+                    <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
+                      <div className="relative h-96">
+                        <Image
+                          src="/images/4.jpg"
+                          alt="pic5"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </Card>
+                  </CarouselItem>
+                  <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
+                    <Card className="overflow-hidden border-amber-200 shadow-md hover:shadow-lg transition-shadow">
+                      <div className="relative h-96">
+                        <Image
+                          src="/images/5.jpg"
+                          alt="pic6"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </Card>
+                  </CarouselItem>
+                </CarouselContent>
+
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
+            </div>
           </div>
         </section>
 
@@ -166,7 +259,8 @@ export default function HunianLandingPage() {
                   Harga Terjangkau
                 </h3>
                 <p className="text-emerald-800">
-                  Dibuat dengan tampilan premium namun tetap bersahabat di kantong. Hadiah mewah tanpa harus mahal.
+                  Dibuat dengan tampilan premium namun tetap bersahabat di
+                  kantong. Hadiah mewah tanpa harus mahal.
                 </p>
               </div>
 
@@ -178,11 +272,10 @@ export default function HunianLandingPage() {
                   Customizable
                 </h3>
                 <p className="text-emerald-800">
-                  Setiap giftbox bisa disesuaikan dengan tema, isi, dan pesan khusus sesuai momen. Hadiah jadi lebih bermakna.
+                  Setiap giftbox bisa disesuaikan dengan tema, isi, dan pesan
+                  khusus sesuai momen. Hadiah jadi lebih bermakna.
                 </p>
               </div>
-
-              
             </div>
           </div>
         </section>
@@ -194,8 +287,8 @@ export default function HunianLandingPage() {
               Apa Kata Mereka?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> */}
-              {/* Testimonial 1 */}
-              {/* <Card className="border-amber-200 shadow-md">
+        {/* Testimonial 1 */}
+        {/* <Card className="border-amber-200 shadow-md">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-1 mb-4">
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
@@ -221,16 +314,16 @@ export default function HunianLandingPage() {
                       <h4 className="font-semibold text-emerald-900">
                         Budi Santoso
                       </h4> */}
-                      {/* <p className="text-sm text-emerald-700">
+        {/* <p className="text-sm text-emerald-700">
                         Pemilik Tipe Melati
                       </p> */}
-                    {/* </div>
+        {/* </div>
                   </div>
                 </CardContent>
               </Card> */}
 
-              {/* Testimonial 2 */}
-              {/* <Card className="border-amber-200 shadow-md">
+        {/* Testimonial 2 */}
+        {/* <Card className="border-amber-200 shadow-md">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-1 mb-4">
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
@@ -256,16 +349,16 @@ export default function HunianLandingPage() {
                       <h4 className="font-semibold text-emerald-900">
                         Dewi Lestari
                       </h4> */}
-                      {/* <p className="text-sm text-emerald-700">
+        {/* <p className="text-sm text-emerald-700">
                         Pemilik Tipe Dahlia
                       </p> */}
-                    {/* </div>
+        {/* </div>
                   </div>
                 </CardContent>
               </Card> */}
 
-              {/* Testimonial 3 */}
-              {/* <Card className="border-amber-200 shadow-md">
+        {/* Testimonial 3 */}
+        {/* <Card className="border-amber-200 shadow-md">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-1 mb-4">
                     <Star className="h-5 w-5 fill-amber-500 text-emerald-500" />
@@ -291,10 +384,10 @@ export default function HunianLandingPage() {
                       <h4 className="font-semibold text-emerald-900">
                         Ahmad Hidayat
                       </h4> */}
-                      {/* <p className="text-sm text-emerald-700">
+        {/* <p className="text-sm text-emerald-700">
                         Pemilik Tipe Anggrek
                       </p> */}
-                    {/* </div>
+        {/* </div>
                   </div>
                 </CardContent>
               </Card>
@@ -317,10 +410,11 @@ export default function HunianLandingPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="https://wa.me/6282220696529">
-                <Button className="bg-white text-emerald-800 hover:bg-emerald-50 text-lg px-8 py-6">
-                  Hubungi Kami
-                </Button></a>
-                
+                  <Button className="bg-white text-emerald-800 hover:bg-emerald-50 text-lg px-8 py-6">
+                    Hubungi Kami
+                  </Button>
+                </a>
+
                 {/* <Button variant="outline" className="border-white text-white hover:bg-amber-700 text-lg px-8 py-6">
                   Jadwalkan Kunjungan
                 </Button> */}
